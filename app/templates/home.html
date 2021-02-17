@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Olá, Viejito!</h1>
+    <p class="lead">Criei esta pagina com o intuito de aprender más sobre desenvolvimento Web.</p>
+    <hr class="my-4">
+    <p>Caso você tenha interesse em falar comigo, clica aqui embaixo.</p>
+    <a class="btn btn-info btn-lg" href="{{ url_for('about') }}" role="button">Contato</a>
+  
+</div>
+{% endblock %}
